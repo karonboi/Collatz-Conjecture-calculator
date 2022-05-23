@@ -50,8 +50,8 @@ echo acknowledge everything before using this thing.
 pause >nul
 echo.
 echo And... during calculations, this application may put
-echo a lot of work for your CPU. Be sure you have closed
-echo unnecessary tasks before continue, to prevent lags
+echo a lot of work on your CPU. Be sure you have closed
+echo unnecessary tasks before continuing, to prevent lags
 echo or even crashes. Chances are low, but who knows.
 echo.
 echo Written and compiled by karonboi

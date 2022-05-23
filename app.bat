@@ -33,14 +33,14 @@
 ::978f952a14a936cc963da21a135fa983
 @echo off
 setlocal
-title Collatz Conjecture counter
+title Collatz conjecture calculator (v0.1.0.0_alpha)
 @mode con lines=25 cols=61
 
 :warning
 cls
 echo BEFORE USING, PLEASE READ THIS CAREFULLY.
 echo.
-echo Collatz Conjecture is kinda complicated to explain by
+echo Collatz conjecture is kinda complicated to explain by
 echo just a few words, so I will leave this YouTube video
 echo link from Veritasium here:
 echo.
@@ -65,7 +65,7 @@ goto scene_input
 :scene_input
 set steps=0
 set filecode=%random%
-echo Collatz Conjecture counter (v1.0, by Karon) >> result_%filecode%.txt
+echo Collatz conjecture calculator (v0.1.0.0_alpha, made by karonboi) >> result_%filecode%.txt
 cls
 echo Now input a random number, integers only.
 echo (Carets are not supported at this time.)

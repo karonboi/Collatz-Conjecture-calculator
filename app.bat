@@ -66,7 +66,6 @@ goto scene_input
 set steps=0
 set filecode=%random%
 echo Collatz Conjecture counter (v1.0, by Karon) >> result_%filecode%.txt
-echo. >> result_graph_%filecode%.bat
 cls
 echo Now input a random number, integers only.
 echo (Carets are not supported at this time.)
